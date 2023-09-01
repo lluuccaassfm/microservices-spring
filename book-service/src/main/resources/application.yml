@@ -44,9 +44,3 @@ spring:
     schemas: book_service
     user: admin
     password: admin
-
-## /api-docs endpoint custom path
-#springdoc.api-docs.path: /api-docs
-
-springdoc:
-  packagesToScan: com/estudo/bookservice
