@@ -1,8 +1,8 @@
-# microservices-spring
+# Conceito de Microserviços
  Escopo de microservices em Java com Spring utilizando:
    - Java 17
    - Spring Boot 3
-   - Service Registry
+   - Service Registry (Eureka)
    - Feign Client
    - Load Balance
    - API Gateway
