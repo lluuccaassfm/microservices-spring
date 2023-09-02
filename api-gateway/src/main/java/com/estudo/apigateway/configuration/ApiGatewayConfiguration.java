@@ -9,6 +9,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ApiGatewayConfiguration {
 
+    // FIXME: Configurado no ampplication.yml
+    /*
     @Bean
     public RouteLocator gatewatRouter(RouteLocatorBuilder builder) {
         return builder.routes()
@@ -20,5 +22,5 @@ public class ApiGatewayConfiguration {
                 .route(p -> p.path("/cambio-service/**").uri("lb://cambio-service"))
                 .route(p -> p.path("/book-service/**").uri("lb://book-service"))
                 .build();
-    }
+    } */
 }
