@@ -2,6 +2,7 @@ package com.estudo.cambioservice.controller;
 
 import com.estudo.cambioservice.model.Cambio;
 import com.estudo.cambioservice.repository.CambioRepository;
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -24,6 +25,7 @@ public class CambioController {
 
     // http://localhost:8000/cambio-service/5/USD/BRL
     @GetMapping(value = "/{amount}/{from}/{to}")
+    @Operation(summary = "Get Cambio from currency")
     public Cambio getCambio (@PathVariable("amount") BigDecimal amount,
                             @PathVariable("from") String from,
                             @PathVariable("to") String to) {
