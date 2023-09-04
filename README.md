@@ -1,5 +1,5 @@
 # Conceito de Microserviços
- Escopo de microservices em Java com Spring utilizando:
+ Escopo de microservices em Java com Spring aplicando conceitos de escalbilidade utilizando:
    - Java 17
    - Spring Boot 3
    - Service Registry (Eureka)
